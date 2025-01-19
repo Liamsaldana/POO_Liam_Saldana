@@ -6,6 +6,10 @@ public class StockManager {
 
     private ArrayList<Car> stock;
 
+    /**
+     * Constructor que inicializa el catálogo de auto's.
+     */
+
     public StockManager() {
         this.stock = new ArrayList<>();
     }
