@@ -5,6 +5,10 @@ import java.util.Scanner;
 import edu.liam.proyect.actividades.act2.programa1.NameValidator;
 import edu.liam.proyect.actividades.act2.programa2.NumGenerator;
 
+/**
+ * Clase que implementa el menú principal de la aplicación.
+ */
+
 public class CLI {
 
     public static void start() {

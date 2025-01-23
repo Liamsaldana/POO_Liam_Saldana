@@ -5,6 +5,10 @@ public class NumGenerator {
     /**
      * Genera un arreglo con los números pares del 2 al 100.
      * @return un int[] con los números pares.
+     * @throws IllegalArgumentException si el número de pares es negativo
+     * @throws IllegalArgumentException si el número de pares es mayor que 50
+     * @throws IllegalArgumentException si el número de pares es cero
+     * 
      */
     public static int[] generarPares2a100() {
         // Hay 50 pares entre 2 y 100 inclusive

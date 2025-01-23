@@ -5,6 +5,12 @@ public class NameValidator {
     /**
      * Valida si el nombre ingresado coincide con alguno de Data.NOMBRES_VALIDOS.
      * Sensible a mayúsculas y minúsculas.
+     * @param nombre el nombre a validar
+     * @throws IllegalArgumentException si el nombre no es válido
+     * @throws NullPointerException si el nombre es nulo
+     * @throws IllegalArgumentException si el nombre es vacío
+     * @throws IllegalArgumentException si el nombre contiene caracteres no válidos
+     * @throws IllegalArgumentException si el nombre contiene caracteres duplicados
      */
     public static void validateName(String nombre) {
         boolean encontrado = false;
