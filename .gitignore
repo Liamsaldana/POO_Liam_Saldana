@@ -1,2 +1,3 @@
-.class
-.iml
+*.class
+*.iml
+*.DS_Store
