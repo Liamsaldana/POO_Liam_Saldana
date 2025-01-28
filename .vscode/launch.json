@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/liamsaldana/Desktop/GITHUB/POO_Liam_Saldana/proyect/src/main/java/edu/liam/proyect/actividades/act1",
+      "program": "/Users/liamsaldana/Desktop/GITHUB/POO_Liam_Saldana/proyect/src/main/java/edu/liam/proyect/actividades/act1/build/Debug/outDebug"
+    }
+  ]
+}
